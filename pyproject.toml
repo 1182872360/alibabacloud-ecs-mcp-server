@@ -9,3 +9,6 @@ dependencies = [
     "mcp[cli]>=1.25.0",
     "pydantic>=2.12.5",
 ]
+
+[project.scripts]
+alibabacloud-ecs-mcp-server = "alibabacloud-ecs-mcp-server.main:main"
