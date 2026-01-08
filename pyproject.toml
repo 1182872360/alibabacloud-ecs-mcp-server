@@ -1,0 +1,11 @@
+[project]
+name = "alibabacloud-ecs-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alibabacloud-ecs20140526==7.5.0",
+    "mcp[cli]>=1.25.0",
+    "pydantic>=2.12.5",
+]
