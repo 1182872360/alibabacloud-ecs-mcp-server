@@ -11,4 +11,4 @@ dependencies = [
 ]
 
 [project.scripts]
-alibabacloud-ecs-mcp-server = "alibabacloud_ecs_mcp_server.main:main"
+alibabacloud-ecs-mcp-server = "main:run_server"
